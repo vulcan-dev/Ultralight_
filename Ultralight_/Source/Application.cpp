@@ -95,9 +95,6 @@ JSValue Application::LoadAddonCounter(const JSObject& thisObj, const JSArgs& arg
     return JSValue();
 }
 
-/// <summary>
-/// Finalizes an instance of the <see cref="Application"/> class.
-/// </summary>
 Application::~Application() {
     this->window_ = nullptr;
     this->app_ = nullptr;
